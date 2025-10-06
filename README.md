@@ -25,12 +25,12 @@ It applies **machine learning and deep learning (1D CNN)** to classify motion st
 ```bash
 git clone https://github.com/h3ides/wifi-motion.git
 cd wifi-motion
-2️⃣ Create Virtual Environment (optional but recommended)
+### 2️⃣ Create Virtual Environment (optional but recommended)
 python -m venv .venv
 .\.venv\Scripts\activate
-3️⃣ Install Requirements
+### 3️⃣ Install Requirements
 pip install -r requirements.txt
-4️⃣ Flash ESP8266
+### 4️⃣ Flash ESP8266
 Open wifi.ino in Arduino IDE.
 
 Set the correct COM port and board (e.g. NodeMCU 1.0).
